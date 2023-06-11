@@ -1,7 +1,7 @@
 
-function App() {
+function App({locale}) {
   return (
-    <h1> Hello World {new Date().toLocaleTimeString()} </h1>
+    <h1> Hello World {new Date().toLocaleTimeString(locale)} </h1>
   )
 }
 
